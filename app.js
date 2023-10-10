@@ -31,7 +31,7 @@ function loaddata() {
         // Create and populate the section with details
         div.innerHTML = `
         <section class="bg-slate-100 gap-5 lg:grid grid-cols-4 items-center justify-between p-3 rounded-lg">
-        <div class=" w-full flex flex-col items-center justify-center col-span-2">
+        <div class=" w-full h-full flex flex-col items-center justify-center col-span-2">
             <img class="w-full rounded-lg mb-5 shadow-sm shadow-black" src="${data[0].flags.png}" alt="image">
             <a target="_blank" class="w-full" href="${data[0].maps.googleMaps}"><button class="btn-active w-full py-2 rounded-lg text-xl font-semibold capitalize shadow-sm shadow-black">view location</button></a>
         </div>
